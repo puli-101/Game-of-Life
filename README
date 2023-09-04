@@ -1,0 +1,19 @@
+0.1.1 premier commit , ajout des fichiers de base
+0.1.2 ajout des fonctions alloue et libere_grille
+0.1.3 ajout de Doxyfile
+0.1.4 ajout des commentaires (documentation) doxygen
+0.1.5 ajout de chargement dynamique des grilles (fin du niveau 1)
+0.2.0 ajout du temps d'evolution, voisinage non-cyclique et vieillissement
+0.2.1 correction d'erreurs d'implementation du vieillissement, edition du doxyfile pour génerer html, édition du Makefile pour inclure la version dans le tarball
+0.2.2 correction de certaines affichages dans 'io.c' le temps d'evolution commence desormais par 0
+0.2.3 correction des erreurs dans 'io.c' : on reinitialise les cellules vivantes une fois que le calcul de vieillissement est desactive , ajout du fonction reset_ages() dans 'grilles.c/h' pour faire cette initialisation , modification de la fonction affiche_grille dans 'io.c/h' pour pouvoir afficher si on fait le calcul de voisinage cyclique ou pas
+0.2.4 dans 'jeu.c' ajout de 'mort par vieillissement' une fois qu'une cellule depasse 8 cycles de evolution (i.e. atteint l'âge de 7) alors elle meurt 
+0.3.0 ajout des cellules non viables
+0.3.1 correction des erreurs du premier rendu
+0.4.0 modification du Makefile pour pouvoir faire de la compilation conditionnelle, ajout d'affichage graphique du texte et de la grille
+0.4.1 fin du niveau 4 , correction d'affichage cairo , ajout de docummentation , ajout de KeyPressMask pour pouvoir gerer les touches
+0.5.0 compilation avec libjeu.a
+0.5.1 correction d'utilisation du macro MODE dans main.c, ajout de test de calcul d'oscillation , ajout de test d'oscillation a partir d'un certain delai , correction de declaration et definition des variables globales 'extern' dans jeu.h, modification d'affichage pour que la grille soit centrée
+0.5.2 separation des cas pour les options de compilation dans main.c , optimisation du Makefile
+
+
